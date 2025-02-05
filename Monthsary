@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy 1st Monthsary!</title>
+    <style>
+        font-family: Arial, sans-serif;
+            background-color: #f0f8ff;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: justify;
+            align-items: center;
+            height: 100vh;
+            overflow: hidden;
+        }
+        .intro, .letter-container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+        .btn {
+            background-color: #5a9;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 18px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        .intro {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+         image-container {
+            margin: 20px 0;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+        .letter-container {
+            background-color: white;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            max-width: 900px;
+            text-align: justify;
+        }
+        h1 {
+            color: #5a9;
+        }
+        p {
+            font-size: 18px;
+            line-height: 1.8;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="intro">
+        <h1>Happy Monthsary!</h1>
+        <button class="btn" onclick="showMessage()">Continue</button>
+    </div>
+    
+    <div class="letter-container">
+        <h1>Happy First Monthsary!</h1>
+        <p>Hello Alex, Aj, Love, Love Love, Lovey,</p>
+        <p>Happy 1st Monthsary!, i know that we both have classes since it's monday and uwi ko is 7 :<, wish i was there with you rn to celebrate it. </p>
+        <p>I just wanna say thank you, thank god that i have you. Kahit medyo mabilis lang ung mismong ligawan and sagutan stage natin, always remember that i love you no matter what, syempre tayo na 'to eh!</p>
+        <p>Thank you for being such a wonderful girlfriend to me, ibang iba talaga ako kapag kasama ka (kumonte ung pag ka kupal), kapag nasa piling mo. You motivate me, you make me want to be a better person, for myself and for you also.</p> 
+        <p>Salamat and thank you, pinili mo pa rin ako which is really unexpected like i didnt even know that you'll be mine someday. Thank you for the gifts that you've given me, your efforts, your patience, your understanding, lahat.</p>
+        <p>Just know that nandito lang ako palagi para sayo, to support you, to help you, to love you, to appreciate you, to embrace you, to tell you that you are beautiful, kasi maganda ka ngani, sobrang ganda mo sa mata ko, ang pretty mo always.</p>
+        <p>Mahal na mahal kita, I want to give you everything that you deserve and I will try to give my very best to give you the love that you deserve.This may be our first monthsary again, but this time I hope na we'll be together hanggang sa maranasan na natin lahat, hanggang sa pagtanda. I love you very much.</p>
+        <p>Sincerely, <br> Cj :> </p>
+        <div class="image-container">
+            <a href="https://www.example.com" target="_blank">
+                <img src="monthsary.gif" alt="Thank You GIF">
+            </a>
+        </div>
+    </div>
+    
+    <script>
+        function showMessage() {
+            document.querySelector('.intro').style.display = 'none';
+            document.querySelector('.letter-container').style.display = 'block';
+        }
+    
+        document.getElementById('intro').style.display = 'flex';
+        document.getElementById('letterContainer').style.display = 'none';
+    </script>
+</body>
+</html>
